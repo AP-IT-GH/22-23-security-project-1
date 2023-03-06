@@ -1,0 +1,10 @@
+Daily Scrum meeting 6 maart 2023
+
+	Ilias:
+		ESXI host installeren en remote access opzetten.
+	Bryan:
+		Netwerking in orde krijgen voor esxi host en VM's.
+	Samrat:
+		ESXI host installeren en remote access opzetten.
+	Sasha:
+		OVA's uploaden en settings (voornamelijk netwerking) in orde brengen.

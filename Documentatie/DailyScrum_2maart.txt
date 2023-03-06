@@ -1,0 +1,10 @@
+Daily Scrum meeting 2 maart 2023
+
+	Ilias:
+		Bezig met de docker container voor de file server.
+	Bryan:
+		Bezig met de virtualizering van de switches.
+	Samrat:
+		Taak volbracht; de testdata is geproduceert en staat op github.
+	Sasha:
+		OVA van de firewall en ubuntu server zijn gemaakt, bezig met de ova van de AD.

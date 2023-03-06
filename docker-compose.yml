@@ -1,0 +1,26 @@
+version: "3.x"
+services:
+  frontend:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./frontend:/var/www/static/:ro
+    ports:
+      - 80:80
+    depends_on:
+      - database
+  database:
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    environment:
+      - STORAGE=mysql
+      - MYSQL_HOST=database
+      - MYSQL_USER=userDB
+      - MYSQL_PASSWORD=notgood
+      - MYSQL_DATABASE=db
+      - MYSQL_ROOT_PASSWORD=letMeDoItForYou
+    volumes:
+      - db_volume:/var/lib/mysql
+volumes:
+  db_volume:
