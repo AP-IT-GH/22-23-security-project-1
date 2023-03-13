@@ -1,0 +1,10 @@
+Daily Scrum meeting 13 maart 2023
+
+	Ilias:
+		Ansible aan het bekijken.
+	Bryan:
+		Netwerking van esxi aan het opzetten.
+	Samrat:
+		Bezig met ansible voorwaarden aan het voldoen.
+	Sasha:
+		Al klaar met zijn taken van deze sprint, gaat Bryan helpen met netwerking.
