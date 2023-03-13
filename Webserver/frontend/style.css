@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Styles for login container */
+.login-container {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.login-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.login-container form {
+  display: inline-block;
+  text-align: left;
+}
+
+.login-container label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-container input[type="submit"] {
+  background-color: #0099cc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: #0077b3;
+}
+
+/* Styles for deployment container */
+.deployment-container {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.deployment-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.deployment-container form {
+  display: inline-block;
+  text-align: left;
+}
+
+.deployment-container label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.deployment-container input[type="text"],
+.deployment-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.deployment-container input[type="submit"] {
+  background-color: #0099cc;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deployment-container input[type="submit"]:hover {
+  background-color: #0077b3;
+}
+
+/* Hide the deployment container by default */
+.deployment-container.hidden {
+  display: none;
+}
