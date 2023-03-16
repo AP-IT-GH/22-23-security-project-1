@@ -1,0 +1,10 @@
+Daily Scrum meeting 16 maart 2023
+
+	Ilias:
+		Beginnen met ansible scrypten.
+	Bryan:
+		Netwerking van esxi aan het opzetten.
+	Samrat:
+		Beginnen met ansible scrypten.
+	Sasha:
+		Uploaden van ubuntu remote access ova.
