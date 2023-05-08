@@ -1,0 +1,14 @@
+vms:
+  hosts:
+    B_Server:
+      app_type: VM
+      datacenter: "10.161.0.11"
+      folder: "OVA's"
+      esxi: VLAVIRAB.p.bletchley.cloud
+      datastore: Datastore-secB
+      ova: ../OVA's/B_Server.ova
+      add_disk: 50
+  vars:
+    vcenter: 10.161.0.11
+    user: rootb
+    password: "N0nkelVanGr@uwel!"
