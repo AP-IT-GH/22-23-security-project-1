@@ -1,5 +1,6 @@
 vms:
   hosts:
+
     B_Server:
       app_type: VM
       datacenter: "10.161.0.11"
@@ -8,6 +9,34 @@ vms:
       datastore: Datastore-secB
       ova: ../OVA's/B_Server.ova
       add_disk: 50
+
+    B_AD:
+      app_type: VM
+      datacenter: "10.161.0.11"
+      folder: "OVA's"
+      esxi: VLAVIRAB.p.bletchley.cloud
+      datastore: Datastore-secB
+      ova: ../OVA's/B_AD.ova
+      add_disk: 50
+
+    B_Pfsense:
+      app_type: VM
+      datacenter: "10.161.0.11"
+      folder: "OVA's"
+      esxi: VLAVIRAB.p.bletchley.cloud
+      datastore: Datastore-secB
+      ova: ../OVA's/B_Pfsense.ova
+      add_disk: 50
+
+    B_Host:
+      app_type: VM
+      datacenter: "10.161.0.11"
+      folder: "OVA's"
+      esxi: VLAVIRAB.p.bletchley.cloud
+      datastore: Datastore-secB
+      ova: ../OVA's/B_Host.ova
+      add_disk: 50
+
   vars:
     vcenter: 10.161.0.11
     user: rootb
