@@ -17,9 +17,19 @@ Er zijn 3 subnetwerken:
 - Default gateway: 10.126.0.1
 
 ## Netwerk Design
-- VLAN150: 10.126.0.3
-- VLAN140: 10.126.0.4
-- VLANGuest: 10.126.0.5
+- VLAN150: 192.168.254.250
+- VLAN140: 192.168.250.250
+- VLANGuest: 192.168.248.250
 
-DC: 10.126.0.10 DG: 10.126.0.3 
-server: 10.126.0.12 DG: 10.126.0.3
+### Domain Controller:
+- Vlan150
+- Static IP: 192.168.254.1
+- Default Gateway: 192.168.254.250
+#### DHCP range
+- Start: 192.168.0.1
+- End: 192.168.3.254
+- Netmask: /22 (255.255.252.0)
+### Server
+- Vlan150
+- Static IP: 192.168.254.2
+- Default Gateway: 192.168.254.250
