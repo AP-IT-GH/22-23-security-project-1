@@ -96,3 +96,4 @@ control option 2
 
 
 ## netwerkschema 
+![Screenshot](/foto/version1Netwerkschema.png)
