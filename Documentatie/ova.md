@@ -12,3 +12,6 @@ Deze bestaat uit een Ubuntu Server installatie waarop men docker op heeft geïns
 
 ## Firewall
 Deze bestaat uit een Pfsense installatie volledig geconfigureerd om de LAN en WAN kant te onderscheiden en beveiligen. We maken hier gebruik van een deny all policy, op die manier kan er niets binnen op de virtuele gemeente dat er niet moet zijn en maximaliseren we de veiligheid.
+
+## Windows 11
+We hebben ervoor gekozen om in de testomgeving het mogelijk te maken om een aantal test clients voor gemeente medewerkers aan te maken. Hiervoor hebben we een tiny Windows 11 iso bestand waarbij we dankzij ansible meerdere clients tegelijk kunnen aanmaken.

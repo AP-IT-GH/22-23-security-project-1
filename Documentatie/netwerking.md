@@ -33,3 +33,7 @@ Er zijn 3 subnetwerken:
 - Vlan150
 - Static IP: 192.168.254.2
 - Default Gateway: 192.168.254.250
+
+### Clients
+- Vlan140
+- Dynamic IP: DHCP
