@@ -96,4 +96,18 @@ control option 2
 
 
 ## netwerkschema 
-![Screenshot](/foto/version1Netwerkschema.png)
+![schema](/foto/version2Netwerkschema.png)
+
+# Geinstalleerde programma's 
+## Thor programma's 
+        - Active Directory
+        - DHCP
+        - DNS (alle lookup zones)
+## Thor Gegevens
+        - VLAN : 150
+        - IP : 192.168.254.10
+        - SUBNET : 255.255.255.0
+        - Gateway : 192.168.254.250
+        - DNS : 172.0.0.1
+        - DNS Suffix : corp.vlavigem.com
+
