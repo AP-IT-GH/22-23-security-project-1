@@ -1,0 +1,10 @@
+---
+# vars file for VM_OVA_deploy
+portgroup_naam: "B_VLAN_test"
+vlan_id: 666
+switch_naam: "VSWITCHB"
+datastore_naam: "Datastore-secB"
+ova_pad: "OVAs/B_Server.ova"
+vm_naam: "B_Server_test2"
+valideer_certificaten: false
+host_naam: "VLAVIRAB.p.bletchley.cloud"
