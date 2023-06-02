@@ -1,0 +1,28 @@
+---
+# tasks file for VM_OVA_deploy
+- name: VM-netwerk aanmaken
+  community.vmware.vmware_portgroup:
+    hostname: "{{ ansible_host }}"
+    username: "{{ ansible_user }}"
+    password: "{{ ansible_password }}"
+    validate_certs: "{{ valideer_certificaten }}"
+    portgroup: "{{ portgroup_naam }}"
+    vlan_id: "{{ vlan_id }}"
+    switch: "{{ switch_naam }}"
+    hosts: "{{ host_naam }}"
+  delegate_to: localhost
+
+- name: VM implementeren vanuit OVA
+  community.vmware.vmware_deploy_ovf:
+    hostname: "{{ ansible_host }}"
+    username: "{{ ansible_user }}"
+    password: "{{ ansible_password }}"
+    validate_certs: "{{ valideer_certificaten }}"
+    name: "{{ vm_naam }}"
+    networks: { "bridged": "{{ portgroup_naam }}" }
+    ovf: "{{ ova_pad }}"
+    datastore: "{{ datastore_naam }}"
+    disk_provisioning: "thin"
+    power_on: yes
+    allow_duplicates: false
+  delegate_to: localhost
