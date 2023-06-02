@@ -1,0 +1,7 @@
+---
+- name: VM vanuit OVA implementeren achter een poortgroep
+  hosts: ESXI
+
+  roles:
+    - vmware_installatie
+    - VM_OVA_deploy
