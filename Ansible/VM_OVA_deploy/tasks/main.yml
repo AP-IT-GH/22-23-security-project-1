@@ -19,7 +19,7 @@
     password: "{{ ansible_password }}"
     validate_certs: "{{ valideer_certificaten }}"
     name: "{{ vm_naam }}"
-    networks: { "bridged": "{{ portgroup_naam }}" }
+    networks: { "nat": "{{ portgroup_naam }}" }
     ovf: "{{ ova_pad }}"
     datastore: "{{ datastore_naam }}"
     disk_provisioning: "thin"
