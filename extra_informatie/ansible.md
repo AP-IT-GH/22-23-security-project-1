@@ -1,9 +1,9 @@
 # Ansible Handleiding
 
-Deze handleiding geeft een overzicht van de stappen die moeten worden genomen om het Ansible-gebeuren uit te voeren en specifiek het playbook deploy_vm.yml te gebruiken. Door het volgen van deze stappen kan u virtuele machines implementeren op een ESXi-host. Door gebruik te maken van het "hosts" bestand kun je de ESXi-host(s) configureren met de vereiste inloggegevens. De variabelen in de rol VM_OVA_deploy kunnen worden aangepast om de implementatie naar wens te configureren. Door de playbook te starten, worden de virtuele machines op de ESXi-hosts geïmplementeerd volgens de opgegeven configuraties nadat de variabelen eerst zijn aangepast.
+Deze handleiding geeft een overzicht van de stappen die moeten worden genomen om het Ansible-gebeuren uit te voeren en specifiek het playbook deploy_vm.yml te gebruiken. Door het volgen van deze stappen kan u virtuele machines implementeren op een ESXi-host. Door gebruik te maken van het "hosts" bestand kun u de ESXi-host(s) configureren met de vereiste inloggegevens. De variabelen in de rol VM_OVA_deploy kunnen worden aangepast om de implementatie naar wens te configureren. Door de playbook te starten, worden de virtuele machines op de ESXi-hosts geïmplementeerd volgens de opgegeven configuraties nadat de variabelen eerst zijn aangepast.
 
 ## Structuur van de Ansible-bestanden
-De Ansible-bestanden moeten correct worden georganiseerd op je systeem. Hier is een voorbeeld van de directorystructuur:
+De Ansible-bestanden moeten correct worden georganiseerd op het systeem. Hier is een voorbeeld van de directorystructuur:
 
 Map ansible/
 * ansible.cfg
@@ -31,7 +31,7 @@ ansible_connection=local
 
 ## Rollen
 In deze handleiding worden twee rollen gebruikt: VM_OVA_deploy en vmware_installatie. 
-Hieronder vind je een korte uitleg van beide rollen
+Hieronder vindt u een korte uitleg van beide rollen
 
 1) vmware_installatie
 De rol vmware_installatie installeert de vereiste dependencies voor het werken met VMware, namelijk de community.vmware collectie en het pyvmomi-pakket. Deze rol vereist geen specifieke variabelen, maar vereist wel Ansible 2.10+ en een werkende Python-interpreter.
@@ -52,5 +52,5 @@ Dit wordt gedaan in de rol VM_OVA_deploy onder vars/main.yml. De volgende variab
 * host_naam: een lijst van ESXi-hostnamen waarop de VM moet worden geïmplementeerd.
 
 ## Playbook uitvoeren
-Zodra de hierboven genoemde configuraties zijn voltooid, kun je het deploy_vm.yml playbook uitvoeren met behulp van het commando: "ansible-playbook deploy_vm.yml".
+Zodra de hierboven genoemde configuraties zijn voltooid, kunt u het deploy_vm.yml playbook uitvoeren met behulp van het commando: "ansible-playbook deploy_vm.yml".
 ***
