@@ -1,12 +1,7 @@
 ---
 # tasks file for vmware_installatie
----
 - name: Community.vmware collection installeren
-  community.general.collection:
-    name: community.vmware
-    state: present
+  ansible.builtin.command: ansible-galaxy collection install community.vmware
 
 - name: Pyvmomi pakket installeren
-  pip:
-    name: pyvmomi
-    executable: "{{ ansible_playbook_python }}"
+  ansible.builtin.command: /usr/bin/python3.9 -m pip install pyvmomi
