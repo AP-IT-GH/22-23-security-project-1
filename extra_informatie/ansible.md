@@ -5,10 +5,10 @@ Deze handleiding geeft een overzicht van de stappen die moeten worden genomen om
 ## Structuur van de Ansible-bestanden
 De Ansible-bestanden moeten correct worden georganiseerd op het systeem. Hier is een voorbeeld van de directorystructuur:
 
-Map ansible/
+### Inhoud map ansible:
 * ansible.cfg
 * hosts
-* roles
+* roles (met de rollen erin)
 * deploy_vm.yml
 
 ## Ansible-configbestand
@@ -30,14 +30,13 @@ ansible_password="esxi wachtwoord"
 ansible_connection=local
 
 ## Rollen
-In deze handleiding worden twee rollen gebruikt: VM_OVA_deploy en vmware_installatie. 
-Hieronder vind je een korte uitleg van beide rollen
+Er worden twee rollen gebruikt: VM_OVA_deploy en vmware_installatie.
 
-1) vmware_installatie
-De rol vmware_installatie installeert de vereiste dependencies voor het werken met VMware, namelijk de community.vmware collectie en het pyvmomi-pakket. Deze rol vereist geen specifieke variabelen, maar vereist wel Ansible 2.10+ en een werkende Python-interpreter.
+### 1) vmware_installatie
+Installeert de vereiste dependencies voor het werken met VMware, namelijk de community.vmware collectie en het pyvmomi-pakket. Deze rol vereist geen specifieke variabelen, maar vereist wel Ansible 2.10+ en een werkende Python-interpreter met versie 3.9.
 
-2) VM_OVA_deploy
-De rol VM_OVA_deploy is verantwoordelijk voor het implementeren van een virtuele machine vanuit een OVA-bestand op een ESXi-host. Het maakt gebruik van de VMware modules van de community.vmware collectie om de implementatie uit te voeren. 
+### 2) VM_OVA_deploy
+Is verantwoordelijk voor het implementeren van een virtuele machine vanuit een OVA-bestand op een ESXi-host. Het maakt gebruik van de VMware modules van de community.vmware collectie om de implementatie uit te voeren. 
 
 ## Variabelen meegeven
 Dit wordt gedaan in de rol VM_OVA_deploy onder vars/main.yml. De volgende variabelen zijn vereist:
