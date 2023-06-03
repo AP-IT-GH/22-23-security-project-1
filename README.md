@@ -20,7 +20,7 @@ Bevat dummygegevens die kunnen worden gebruikt in de gemeente-applicaties. Deze 
 Bevat verschillende tekstbestanden met documentatie en informatie over het project. Hier vind je een aantal dagelijkse scrumbesprekingen. 
 
 ### [Webserver](Webserver)
-Bevat de frontend van de webserver
+Bevat de frontend van de webserver.
 
 ### [Extra_informatie](extra_informatie)
 Bevat extra informatie met betrekking tot het project.
