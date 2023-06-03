@@ -7,11 +7,11 @@ In dit project wordt gebruik gemaakt van Ansible om een digitale tweeling van ee
 ### [Ansible](Ansible)
 #### De hoofdmap van het Ansible gedeelte. Het bevat de rollen en playbook:
 
-  - [VM_OVA_deploy](Ansible/VM_OVA_deploy/README.md): rol voor het implementeren van een virtuele machine vanuit een OVA-bestand. 
+  - [VM_OVA_deploy](Ansible/VM_OVA_deploy): rol voor het implementeren van een virtuele machine vanuit een OVA-bestand. 
 
-  - [VMWare_installatie](Ansible/vmware_installatie/README.md): rol voor het installeren van de vereiste dependencies voor het werken met VMware. 
+  - [VMWare_installatie](Ansible/vmware_installatie): rol voor het installeren van de vereiste dependencies voor het werken met VMware. 
 
-  - [Deploy_VM.yml](Ansible/vmware_installatie/README.md): playbook voor het implementeren van de virtuele machine nadat de hosts en variabelen zijn geconfigureerd.
+  - [Deploy_VM.yml](Ansible/vmware_installatie): playbook voor het implementeren van de virtuele machine nadat de hosts en variabelen zijn geconfigureerd.
 
 ### [Data](Data)
 #### Bevat dummygegevens die kunnen worden gebruikt in de gemeente-applicaties. Deze gegevens zijn willekeurig gegenereerd en simuleren de gegevens die je zou vinden in een gemeentelijke database over burgers. Dit zorgt ervoor dat je kunt testen zonder inbreuk te maken op de privacy.
