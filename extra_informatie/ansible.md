@@ -53,3 +53,4 @@ Dit wordt gedaan in de rol VM_OVA_deploy onder vars/main.yml. De volgende variab
 
 ## Playbook uitvoeren
 Zodra de hierboven genoemde configuraties zijn voltooid, kun je het deploy_vm.yml playbook uitvoeren met behulp van het commando: "ansible-playbook deploy_vm.yml".
+***
