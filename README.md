@@ -5,7 +5,7 @@ In dit project wordt gebruik gemaakt van Ansible om een digitale tweeling van ee
 ## Inhoud
 
 ### [Ansible](Ansible)
-#### De hoofdmap van het Ansible gedeelte. Het bevat de rollen en playbook:
+De hoofdmap van het Ansible gedeelte. Het bevat de rollen en playbook:
 
   - [VM_OVA_deploy](Ansible/VM_OVA_deploy): rol voor het implementeren van een virtuele machine vanuit een OVA-bestand. 
 
@@ -14,22 +14,22 @@ In dit project wordt gebruik gemaakt van Ansible om een digitale tweeling van ee
   - [Deploy_VM.yml](Ansible/vmware_installatie): playbook voor het implementeren van de virtuele machine nadat de hosts en variabelen zijn geconfigureerd.
 
 ### [Data](Data)
-#### Bevat dummygegevens die kunnen worden gebruikt in de gemeente-applicaties. Deze gegevens zijn willekeurig gegenereerd en simuleren de gegevens die je zou vinden in een gemeentelijke database over burgers. Dit zorgt ervoor dat je kunt testen zonder inbreuk te maken op de privacy.
+Bevat dummygegevens die kunnen worden gebruikt in de gemeente-applicaties. Deze gegevens zijn willekeurig gegenereerd en simuleren de gegevens die je zou vinden in een gemeentelijke database over burgers. Dit zorgt ervoor dat je kunt testen zonder inbreuk te maken op de privacy.
 
 ### [Documentatie](Documentatie)
-#### Bevat verschillende tekstbestanden met documentatie en informatie over het project. Hier vind je een aantal dagelijkse scrumbesprekingen. 
+Bevat verschillende tekstbestanden met documentatie en informatie over het project. Hier vind je een aantal dagelijkse scrumbesprekingen. 
 
 ### [Webserver](Webserver)
-#### Bevat de frontend van de webserver
+Bevat de frontend van de webserver
 
 ### [Extra_informatie](extra_informatie)
-#### Bevat extra informatie met betrekking tot het project.
+Bevat extra informatie met betrekking tot het project.
   - [Ansible-handleiding](extra_informatie/ansible.md)
   - [OVA- en ISO-bestanden](extra_informatie/ova.md)
   - [Netwerkopstelling](extra_informatie/netwerking.md)
 
 ### [Foto](foto)
-#### Bevat afbeeldingen die relevant zijn voor het project, zoals netwerkschema's.
+Bevat afbeeldingen die relevant zijn voor het project, zoals netwerkschema's.
 
 ## Teamleden
 - Adhekari Samrat
