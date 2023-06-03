@@ -19,7 +19,7 @@
         hosts: "VLAVIRAB.p.bletchley.cloud"
       delegate_to: localhost
       
-4. Voer de playbook uit met de volgende commando: ansible-playbook esxi-deplyer.yaml
+4. Voer de playbook uit met de volgende commando: ansible-playbook esxi-deployer.yaml
 
 ## OVA's aanmaken
 1. Ga op de Bansible host
@@ -41,4 +41,4 @@
         power_on: true
       delegate_to: localhost
       
-4. Voer de playbook uit met de volgende commando: ansible-playbook esxi-deplyer.yaml
+4. Voer de playbook uit met de volgende commando: ansible-playbook esxi-deployer.yaml
