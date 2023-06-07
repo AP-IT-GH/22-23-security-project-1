@@ -1,39 +1,39 @@
 Rollen gemeenten
 ----------------
 
-Burgemeester: De burgemeester is het hoofd van de gemeente en leidt het dagelijks bestuur. Hij of zij is verantwoordelijk voor de handhaving van de openbare orde en veiligheid.
+- Burgemeester: De burgemeester is het hoofd van de gemeente en leidt het dagelijks bestuur. Hij of zij is verantwoordelijk voor de handhaving van de openbare orde en veiligheid.
 
-Schepenen: Schepenen zijn verantwoordelijk voor beleidsterreinen als bijvoorbeeld cultuur, sport, welzijn of mobiliteit.
+- Schepenen: Schepenen zijn verantwoordelijk voor beleidsterreinen als bijvoorbeeld cultuur, sport, welzijn of mobiliteit.
 
-Gemeenteraad: De gemeenteraad is het hoogste orgaan van de gemeente. De raad bepaalt het beleid en controleert het college van burgemeester en schepenen.
+- Gemeenteraad: De gemeenteraad is het hoogste orgaan van de gemeente. De raad bepaalt het beleid en controleert het college van burgemeester en schepenen.
 
-Secretaris: De secretaris is de hoogste ambtenaar van de gemeente en is verantwoordelijk voor de organisatie en het personeel van de gemeente.
+- Secretaris: De secretaris is de hoogste ambtenaar van de gemeente en is verantwoordelijk voor de organisatie en het personeel van de gemeente.
 
-Ambtenaren: Ambtenaren voeren de dagelijkse werkzaamheden van de gemeente uit en ondersteunen het bestuur en de politiek.
+- Ambtenaren: Ambtenaren voeren de dagelijkse werkzaamheden van de gemeente uit en ondersteunen het bestuur en de politiek.
 
-Beleidsmedewerkers: Beleidsmedewerkers ontwikkelen beleid op specifieke terreinen en adviseren het bestuur en de politiek over de uitvoering ervan.
+- Beleidsmedewerkers: Beleidsmedewerkers ontwikkelen beleid op specifieke terreinen en adviseren het bestuur en de politiek over de uitvoering ervan.
 
-Toezichthouders: Toezichthouders houden toezicht op naleving van wet- en regelgeving en handhaven deze indien nodig.
+- Toezichthouders: Toezichthouders houden toezicht op naleving van wet- en regelgeving en handhaven deze indien nodig.
 
-Gemeentelijke ombudsman: De gemeentelijke ombudsman behandelt klachten van burgers over het handelen van de gemeente en haar ambtenaren.
+- Gemeentelijke ombudsman: De gemeentelijke ombudsman behandelt klachten van burgers over het handelen van de gemeente en haar ambtenaren.
 
-Ontvanger: De ontvanger is verantwoordelijk voor het financieel beheer van de gemeente en het innen van belastingen en heffingen.
+- Ontvanger: De ontvanger is verantwoordelijk voor het financieel beheer van de gemeente en het innen van belastingen en heffingen.
 
-Gemeentelijke technische dienst: De gemeentelijke technische dienst zorgt voor het onderhoud van openbare ruimtes, gebouwen en infrastructuur in de gemeente.
+- Gemeentelijke technische dienst: De gemeentelijke technische dienst zorgt voor het onderhoud van openbare ruimtes, gebouwen en infrastructuur in de gemeente.
 
-Dienst burgerzaken: De dienst burgerzaken verzorgt de administratie van de inwoners van de gemeente, zoals de registratie van geboortes, huwelijken en overlijdens.
+- Dienst burgerzaken: De dienst burgerzaken verzorgt de administratie van de inwoners van de gemeente, zoals de registratie van geboortes, huwelijken en overlijdens.
 
-Milieudienst: De milieudienst houdt zich bezig met milieubeheer en -bescherming in de gemeente, bijvoorbeeld door het controleren op naleving van milieuregels en het stimuleren van duurzaamheid.
+- Milieudienst: De milieudienst houdt zich bezig met milieubeheer en -bescherming in de gemeente, bijvoorbeeld door het controleren op naleving van milieuregels en het stimuleren van duurzaamheid.
 
-Communicatiedienst: De communicatiedienst zorgt voor de interne en externe communicatie van de gemeente, bijvoorbeeld door het verzorgen van de website, persberichten en sociale media.
+- Communicatiedienst: De communicatiedienst zorgt voor de interne en externe communicatie van de gemeente, bijvoorbeeld door het verzorgen van de website, persberichten en sociale media.
 
-Jeugddienst: De jeugddienst organiseert activiteiten en ondersteunt initiatieven voor jongeren in de gemeente.
+- Jeugddienst: De jeugddienst organiseert activiteiten en ondersteunt initiatieven voor jongeren in de gemeente.
 
-Cultuurdienst: De cultuurdienst ondersteunt culturele activiteiten en evenementen in de gemeente, zoals theatervoorstellingen, tentoonstellingen en muziekoptredens.
+- Cultuurdienst: De cultuurdienst ondersteunt culturele activiteiten en evenementen in de gemeente, zoals theatervoorstellingen, tentoonstellingen en muziekoptredens.
 
-Sportdienst: De sportdienst organiseert sportactiviteiten en ondersteunt sportverenigingen in de gemeente.
+- Sportdienst: De sportdienst organiseert sportactiviteiten en ondersteunt sportverenigingen in de gemeente.
 
-Dienst stedenbouw en ruimtelijke ordening: Deze dienst houdt zich bezig met het opstellen van bestemmingsplannen, vergunningen en het toezicht op de uitvoering van bouwprojecten en ruimtelijke ordening in de gemeente.
+- Dienst stedenbouw en ruimtelijke ordening: Deze dienst houdt zich bezig met het opstellen van bestemmingsplannen, vergunningen en het toezicht op de uitvoering van bouwprojecten en ruimtelijke ordening in de gemeente.
 
 VLAN
 ----
