@@ -28,13 +28,13 @@ Voorbeeld van een playbook
 ----------------
 
 Hier is een voorbeeld van hoe deze rol gebruikt kan worden in een playbook:
-
+```
 - name: VM vanuit OVA implementeren achter een poortgroep
   hosts: ESXI
-  become: yes
 
   roles:
     - VM_OVA_deploy
+```
 
 Licentie
 -------
