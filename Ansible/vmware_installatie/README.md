@@ -23,14 +23,14 @@ Voorbeeld van een playbook
 ----------------
 
 Hier is een voorbeeld van hoe deze rol gebruikt kan worden in een playbook:
-
+```
 - name: Installeer VMware dependencies
   hosts: all
   become: yes
 
   roles:
     - vmware_installation
-
+```
 Licentie
 -------
 
