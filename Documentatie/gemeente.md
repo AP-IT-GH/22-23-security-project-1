@@ -37,13 +37,13 @@ Dienst stedenbouw en ruimtelijke ordening: Deze dienst houdt zich bezig met het 
 
 VLAN
 ----
-•	VLAN voor personeel, de interne medewerkers van de gemeente: school, OCMW, kinderopvang, politie, brandweer, etc.
-•	VLAN voor servers: servers van de gemeente, zoals e-mail servers, database servers, etc.
-•	VLAN voor gasten: externe bezoekers of mensen die tijdelijk toegang hebben tot het netwerk.
-•	VLAN voor camera's: camera's op openbare plaatsen, zoals op straat, in parkeergarages, etc.
-•	VLAN voor netwerkmanagement: apparaten die nodig zijn voor het beheer van het netwerk, zoals switches en routers.
-•	VLAN voor printers: printers die zijn aangesloten op het netwerk
-•	VLAN voor IoT: Internet of Things-apparaten, zoals slimme thermostaten, energie-monitors, etc.
-•	VLAN voor toegangscontrole: apparaten die gebruikt worden voor toegangscontrole, zoals badgelezers.
-•	VLAN voor VoIP: telefooncentrales en telefoons die gebruikmaken van VoIP
-•	VLAN voor speciale projecten: als de gemeente tijdelijke projecten uitvoert die speciale netwerkvereisten hebben, kan het handig zijn om deze projecten te scheiden van andere delen van het netwerk om de prestaties en beveiliging te optimaliseren.
+-	VLAN voor personeel, de interne medewerkers van de gemeente: school, OCMW, kinderopvang, politie, brandweer, etc.
+-	VLAN voor servers: servers van de gemeente, zoals e-mail servers, database servers, etc.
+-	VLAN voor gasten: externe bezoekers of mensen die tijdelijk toegang hebben tot het netwerk.
+-	VLAN voor camera's: camera's op openbare plaatsen, zoals op straat, in parkeergarages, etc.
+-	VLAN voor netwerkmanagement: apparaten die nodig zijn voor het beheer van het netwerk, zoals switches en routers.
+-	VLAN voor printers: printers die zijn aangesloten op het netwerk
+-	VLAN voor IoT: Internet of Things-apparaten, zoals slimme thermostaten, energie-monitors, etc.
+-	VLAN voor toegangscontrole: apparaten die gebruikt worden voor toegangscontrole, zoals badgelezers.
+-	VLAN voor VoIP: telefooncentrales en telefoons die gebruikmaken van VoIP
+-	VLAN voor speciale projecten: als de gemeente tijdelijke projecten uitvoert die speciale netwerkvereisten hebben, kan het handig zijn om deze projecten te scheiden van andere delen van het netwerk om de prestaties en beveiliging te optimaliseren.
