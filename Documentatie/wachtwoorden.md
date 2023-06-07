@@ -1,4 +1,4 @@
-# Inlog gegevens van de verschillende virtuele machines.
+# Inloggegevens van de verschillende virtuele machines.
 ## B_Domain_Controller
 Username: administrator  
 Wachtwoord: N0nkelVanGr@uwel!
@@ -10,4 +10,7 @@ Username: admin
 Wachtwoord: uiopuip
 ## B_host
 Username: admin  
+Wachtwoord: uiopuiop
+## B_Win11_client
+Username: personeel  
 Wachtwoord: uiopuiop
