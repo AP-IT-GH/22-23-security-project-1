@@ -30,7 +30,7 @@ ansible_password="<esxi wachtwoord>"
 ansible_connection=local
 ```
 ## Rollen
-Er worden twee rollen gebruikt: VM_OVA_deploy en vmware_installatie.
+Er worden twee rollen gebruikt: `VM_OVA_deploy` en `vmware_installatie`.
 
 ### 1) vmware_installatie
 Installeert de vereiste dependencies voor het werken met VMware, namelijk de community.vmware collectie en het pyvmomi-pakket. Deze rol vereist geen specifieke variabelen, maar vereist wel Ansible 2.10+ en een werkende Python-interpreter met versie 3.9.
