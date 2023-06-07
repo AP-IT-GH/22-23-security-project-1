@@ -6,10 +6,10 @@ Deze handleiding geeft een overzicht van de stappen die moeten worden genomen om
 De Ansible-bestanden moeten correct worden georganiseerd op het systeem. Hier is een voorbeeld van de directorystructuur:
 
 ### Inhoud map ansible:
-* ansible.cfg
-* hosts
-* roles (met de rollen erin)
-* deploy_vm.yml
+* `ansible.cfg`
+* `hosts`
+* `roles` (met de rollen erin)
+* `deploy_vm.yml`
 
 ## Ansible-configbestand
 Het bestand kan d.m.v. de template hieronder opgesteld worden:
