@@ -13,22 +13,22 @@ De Ansible-bestanden moeten correct worden georganiseerd op het systeem. Hier is
 
 ## Ansible-configbestand
 Het bestand kan d.m.v. de template hieronder opgesteld worden:
-
+```
 [defaults]
 inventory =./hosts
 ansible_python_interpreter=/usr/bin/python3.9
-
+```
 ## Hostsbestand
 De ESXI host(s) kunnen d.m.v. de template hieronder geconfigureerd worden:
-
+```
 [ESXI]
-esxi_host ansible_host="esxi-ipadres"
+esxi_host ansible_host="<esxi ipadres>"
 
 [ESXI:vars]
-ansible_user="esxi gebruikersnaam"
-ansible_password="esxi wachtwoord"
+ansible_user="<esxi gebruikersnaam>"
+ansible_password="<esxi wachtwoord>"
 ansible_connection=local
-
+```
 ## Rollen
 Er worden twee rollen gebruikt: VM_OVA_deploy en vmware_installatie.
 
@@ -41,14 +41,14 @@ Is verantwoordelijk voor het implementeren van een virtuele machine vanuit een O
 ## Variabelen meegeven
 Dit wordt gedaan in de rol VM_OVA_deploy onder vars/main.yml. De volgende variabelen zijn vereist:
 
-* portgroup_naam: de naam van de portgroup voor het VM-netwerk.
-* vlan_id: de VLAN-ID voor het VM-netwerk.
-* switch_naam: de naam van de vSwitch.
-* datastore_naam: de naam van de datastore waar de VM moet worden geplaatst.
-* ova_pad: het lokale pad naar het OVA-bestand dat moet worden geïmplementeerd.
-* vm_naam: de naam van de VM.
-* valideer_certificaten: geeft aan of certificaten moeten worden gevalideerd bij het verbinden met de ESXi-host. Standaard staat dit op false.
-* host_naam: een lijst van ESXi-hostnamen waarop de VM moet worden geïmplementeerd.
+* `portgroup_naam`: de naam van de portgroup voor het VM-netwerk.
+* `vlan_id`: de VLAN-ID voor het VM-netwerk.
+* `switch_naam`: de naam van de vSwitch.
+* `datastore_naam`: de naam van de datastore waar de VM moet worden geplaatst.
+* `ova_pad`: het lokale pad naar het OVA-bestand dat moet worden geïmplementeerd.
+* `vm_naam`: de naam van de VM.
+* `valideer_certificaten`: geeft aan of certificaten moeten worden gevalideerd bij het verbinden met de ESXi-host. Standaard staat dit op false.
+* `host_naam`: een lijst van ESXi-hostnamen waarop de VM moet worden geïmplementeerd.
 
 ## Playbook uitvoeren
 Zodra de hierboven genoemde configuraties zijn voltooid, kunt u het deploy_vm.yml playbook uitvoeren met behulp van het commando: "ansible-playbook deploy_vm.yml".
